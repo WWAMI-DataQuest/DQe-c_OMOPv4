@@ -159,7 +159,7 @@ withoutthem <- function(data,col1,col2,list,denominator) {
   
 
   blood_pressure <- c("8462-4","FND_BPS","3012888","FND_BPD","275944005","3004249","8480-6")
-  without_BP <- withoutthem(data = observation,col1 = "observation_concept_id","person_id",list=BP, denominator=people_count)
+  without_BP <- withoutthem(data = observation,col1 = "observation_concept_id","person_id",list=blood_pressure, denominator=people_count)
   
   smoking <- c(
     "40664586","2108525","SOC_Smoker","8392000","77176002","393644001","4298794","40664492","40756893","4222303","42740578","2617852",
