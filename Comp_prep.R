@@ -4,7 +4,7 @@
 
 source("Connect.R")
 ##reading and storing OMOP tables
-for (i in 1:length(OMOPtbls)) assign(OMOPtbls[i], dbGetQuery(con,paste("select * from omop.",OMOPtbls[i],"",sep="")))
+for (i in 1:length(OMOPtbls)) assign(OMOPtbls[i], dbGetQuery(con,paste("select * from ",org,".",OMOPtbls[i],"",sep="")))
 
 # if(length(person)!= 0) person <- person[,1:14]  #removing extra columns
 # if(length(provider)!= 0) provider <- provider[,1:7]  #removing extra columns
