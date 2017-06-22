@@ -1,0 +1,5 @@
+reports/*.csv
+reports/mstabs/*.csv
+reports/flagtabs/*.csv
+*.html
+.RDataTmp
