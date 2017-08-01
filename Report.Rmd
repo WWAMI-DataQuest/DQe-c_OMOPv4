@@ -307,6 +307,3 @@ ggplot(withouts, aes(x=missing,y=reorder(group,-missing), label = perc)) +
 
 ##info
 This is report is from DQe-c version 1.7
-
-For questions and/or inquiries email: `hestiri@uw.edu`
-

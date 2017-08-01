@@ -1,12 +1,3 @@
----
-title: "DQe-c For OMOP V4 CDM"
-author: "Hossein Estiri"
-date: "May 2016"
-output:
-  word_document: default
-  html_document:
-    toc: yes
----
 ## Introduction
 This document is a guide to run DQe-c program. DQe-c program is a component of the DQe project (Data Quality Explorer) that evaluates completeness in clinical data. The version of DQe-c described in this document is customized for OMOP version 4 common data model.
 
@@ -101,7 +92,3 @@ Code to produce the `Report.html` is in the R Markdown file, `Report.Rmd`. The c
 
 ### Running DQe-c
 To run DQe-c, you only need to execute `Run.R`. All scripts are programmed to follow their prequesite script. Before executing `Run.R`, however, make sure that username and password are stored in `Keys.R` and that `Con.R` has all ODBC connection information to your OMOP V4 PostgreSQL database.
-
-
-## info
-for questions and/or inquiries contact `hestiri at uw . edu`
